@@ -1,3 +1,0 @@
-print("Gulam")
-
-print("rabbani")
