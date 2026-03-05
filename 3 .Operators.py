@@ -1,7 +1,5 @@
-# 1.you hane to new repo and me as collaborator.
-# 2.Explore Tridev Github Profile and try to git clone code
-## operators:- 
 
+## operators:- 
 
 # a = 10 
 # b = 20 
@@ -10,7 +8,6 @@
 # b = 20 
 # print(a + b) => 30   => Plus operator ( it perform Addition operation) 
 # print(a * b) => 200  => star ( it perform multiplication operation) 
-
 
 # => it can perform any specific task/operation .
 
