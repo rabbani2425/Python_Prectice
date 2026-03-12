@@ -1,5 +1,7 @@
 '''String Slicing :- Slicing ka matlb hota h striing ke andar se kuch part ko nikalna and index ke help se '''
 
+'''Posetive Slicing'''
+
 # For 2 perameters String slicing:
 
 # First perameters = Stating Point.
@@ -70,5 +72,59 @@ print("Slicing:",my_string[:])
 # Stating point => 0
 # Ending Point => Last Index
 # OUTPUT = javascript
+'''-------------------------------------------------------------------'''
+'''Negative Slicing'''
+
+# # P    r   o   g   r    a    m   m    i     n   g
+# # -11 -10 -9  -8  -7   -6   -5   -4  -3    -2  -1
+
+my_string = "Programming"
+
+print(my_string[-6])  # a
+
+print(my_string[-11 : -6])  # P    r   o   g   r
+print(my_string[-9 : -2])  #  o   g   r    a    m   m    i     
+print(my_string[-9 : -2 : 1])  #  o   g   r    a    m   m    i    
+
+print("here is my output :  ", my_string[-1 : -10])
+
+# starting point => -9 
+# ending point => -2 , excluded 
+
+# starting point => -11
+# ending point => -6  , excluded 
+
+
+# ---------------------------------------------------------------------- 
+
+# # P    r   o   g   r    a    m   m    i     n   g
+# # -11 -10 -9  -8  -7   -6   -5   -4  -3    -2  -1
+
+my_string = "Programming"
+
+
+print("here is my output :  ", my_string[ : : ]) 
+
+# starting  point => 0
+# ending point => Last Index
+# Gap => 1, => 1 - 1 = 0 , that's why we have to skip 0 elements.
+
+# output => P    r   o   g   r    a    m   m    i     n   g
+
+
+# -------------------------------------------------------------- 
+'''Reverse Slicing'''
+
+# P    r   o   g   r    a    m   m    i     n   g
+# -11 -10 -9  -8  -7   -6   -5   -4  -3    -2  -1
+
+my_string = "Programming"
+
+
+print("here is my output :  ", my_string[ : : -1 ]) 
+
+
+# NOte: whenever you use NEgative Gap , in that case only , the string flow will be right to left
+
 
 
