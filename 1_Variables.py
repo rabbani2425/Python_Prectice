@@ -43,11 +43,11 @@
 
 # here both variable are different things.
 
-# a = 99  # lowercase 
-# A = 999 # uppercase 
+a = 99  # lowercase 
+A = 999 # uppercase 
 
-# print(a)
-# print(A)
+print(a)
+print(A)
 
 # 5. Variable name should be always meaningful. 
 
